@@ -1,0 +1,236 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "Greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey!",
+        "What can I do for you?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "name",
+        "what's your name",
+        "who are you",
+        "what should I call you"
+      ],
+      "responses": [
+        "You can call me ChatBotRJIT",
+        "I'm ChatBotRJIT",
+        "I'm ChatBotRJIT your virtual assistant"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are available",
+        "how many courses are there in this college"
+      ],
+      "responses": [
+        "Rustamji Institute of Technology (RJIT) is the first engineering college in India established by Border Security Force in October 1999, \n B.Tech in IT,B.Tech in CSE,B.Tech in AUTOMOBILE,B.Tech in MECHANICAL,B.Tech in ELECTICAL,B.Tech in ECE,\n are available in RJIT"
+      ]
+    },
+    {
+      "tag": "courseDuration",
+      "patterns": [
+        "how long will be B.Tech course",
+        "how long will it take to complete BTech course",
+		"how long will be M.Tech course",
+		"how long will be MCA course"
+      ],
+      "responses": [
+        "Our college offers 4 year long BTech course",
+		" Our College offer 2 year long M.Tech course.",
+		" Our College offer 2 year long MCA course."
+      ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "location",
+        "where is it located",
+        "what is the location of the college"
+      ],
+      "responses": [
+        "RJIT is located in Tekanpur, 24 km from Gwalior on Gwalior- Jhansi Road , and 15 km from Dabra"
+      ]
+    },
+    {
+      "tag": "semesters",
+      "patterns": [
+        "how many semesters are there in a year",
+        "how many semesters one should study in a year"
+      ],
+      "responses": [
+        "There are two semesters in a year."
+      ]
+    },
+    {
+      "tag": "semDuration",
+      "patterns": [
+        "how many months are there in a semester",
+        "how long will be a single semester"
+      ],
+      "responses": [
+        "The single semester will be around 4 months."
+      ]
+    },
+    {
+      "tag": "studentRequirements",
+      "patterns": [
+        "what are the student requirements for admission",
+        "entry requirements",
+        "admission requirements"
+      ],
+      "responses": [
+        "for B.Tech, candidate should pass 12th wih PCM with minimum 45%, and JEE mains./n high school marksheet, Higher secendory marksheet, JEE mains scorecard are necessory  "
+      ]
+    },
+    {
+      "tag": "classes",
+      "patterns": [
+        "how many classes will be there in a day",
+        "how long are the classes?"
+      ],
+      "responses": [
+        "There are 6 classes per day. Each class will be of 40 minutes."
+      ]
+    },
+    {
+      "tag": "teachingStyle",
+      "patterns": [
+        "what is the teaching style of this college?",
+        "Is the teaching pattern different from other college?",
+        "what is the teaching format?"
+      ],
+      "responses": [
+        "The classes are Theory and Practical,each classroom has multimedia facility"
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "what are the exams like?",
+        "What is the exam pattern"
+      ],
+      "responses": [
+        "Exams are conducted as per RGPV curruulam , the Examination are conducted by RGPV and/n the marks are given in grade point call CGPA & SGPA"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours",
+        "when are you guys open",
+        "what your hours of operation"
+      ],
+      "responses": [
+		"RJIT is open from Monday to Friday 09 am to 4 PM, excepting public holidays "      ]
+    },
+    {
+      "tag": "funActivities",
+      "patterns": [
+        "will there be any extra curriculum activities?",
+        "does the college conducts any fun program"
+      ],
+      "responses": [
+		"RJIT organizes Abhivyanjana every Year along with TechFest and Sportsmeet"      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what facilities are provided by the college?",
+        "what are the facilities of college for students",
+        "what are the college infrastructures "
+      ],
+      "responses": [
+        "With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."
+      ]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+        "how much is the college fee",
+        "what is the fee structure"
+      ],
+      "responses": [
+			" for BTech Courses Fees is Rs.41372 per semester and for MTech Rs.31500 per semester,& /n for MCA Course it is Rs.24536 per Semester"
+			]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a Good Day",
+        "bye",
+        "see ya"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk you later",
+        "Goodbye"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "",
+        "gvsd",
+        "asbhk"
+      ],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+		
+		
+		
+	]},
+	  {
+      "tag": "Contact",
+      "patterns": [
+        "what is contact no ",
+        "how can I contact RJIT",
+        "how can I make a call to RJIT",
+        "What is phone no. of RJIT",
+        "Mobile No. of RJIT"
+      ],
+      "responses": [
+        "you can call Yashwant Pathak on 9893273190",
+        "contact 9893273190 for enquiry",
+        "The contact no. is 9893273190"
+	  ]
+		
+    }
+  ]
+}
